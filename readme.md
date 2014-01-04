@@ -4,7 +4,7 @@ jQuery plugin that wraps the Facebook JavaScript API.
 
 ## About the project
 
-I created this plugin for a fast and ordered usage of the platform.  
+I created this plugin for a fast and organized usage of the platform.  
 
 ![Facebook](http://alemohamad.com/github/facebook-logo.png)
 
