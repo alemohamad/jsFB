@@ -27,17 +27,17 @@ jsFB.authUser();
 Parameter        | Type    | Description                                 | Argument
 -----------------|---------|---------------------------------------------|----------
 fbAppId          | Integer | App ID                                      | Required
-fbAppAccessToken | Integer | [https://developers.facebook.com/docs/technical-guides/opengraph/publishing-with-app-token/](App Access token) | Required
+fbAppAccessToken | Integer | [App Access token](https://developers.facebook.com/docs/technical-guides/opengraph/publishing-with-app-token/) | Required
 domain           | String  | Domain of the project                       | Required
-fbScope          | String  | List of [https://developers.facebook.com/docs/authentication/permissions/](permissions) for the project | Optional
-locale           | String  | Main [https://www.facebook.com/translations/FacebookLocales.xml](language) of the project | Optional
+fbScope          | String  | List of [permissions](https://developers.facebook.com/docs/authentication/permissions/) for the project | Optional
+locale           | String  | Main [language](https://www.facebook.com/translations/FacebookLocales.xml) of the project | Optional
 likeEnabled      | Boolean | Enable the likegate functionality           | Optional
 fanPageID        | Integer | FanPage ID for the likegate                 | Optional
 likegateURL      | String  | Redirect URL if user don't like the FanPage | Optional
 appType          | String  | Type of the app (web, tab or app)           | Optional
 debug            | Boolean | Enable the log method to show the responses | Optional
 
-[https://graph.facebook.com/oauth/access_token?client_id=APPID&client_secret=APPSECRET&grant_type=client_credentials](Request your App Access Token).
+[Request your App Access Token](https://graph.facebook.com/oauth/access_token?client_id=APPID&client_secret=APPSECRET&grant_type=client_credentials).
 
 ### Logout the user
 
