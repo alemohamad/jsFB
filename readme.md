@@ -10,6 +10,8 @@ I created this plugin for a fast and ordered usage of the platform.
 
 ## Usage
 
+### Plugin initialization
+
 ```javascript
 $.jsFB({
   fbAppId          : APP_ID_NUMBER,
@@ -18,26 +20,27 @@ $.jsFB({
 });
 ```
 
+Parameter        | Type    | Description                                      | Argument
+-----------------|---------|--------------------------------------------------|----------
+fbAppId          | Integer | App ID                                           | Required
+fbAppAccessToken | Integer | [App Access token](https://developers.facebook.com/docs/technical-guides/opengraph/publishing-with-app-token/) | Required
+domain           | String  | Domain of the project                            | Required
+fbScope          | String  | List of [permissions](https://developers.facebook.com/docs/authentication/permissions/) for the project | Optional
+locale           | String  | Main [language](https://www.facebook.com/translations/FacebookLocales.xml) of the project | Optional
+likeEnabled      | Boolean | Enable the likegate functionality                | Optional
+fanPageID        | Integer | FanPage ID for the likegate                      | Optional
+likegateURL      | String  | Redirect URL if user don't like the FanPage      | Optional
+appType          | String  | Type of the app (web, tab or app)                | Optional
+callback         | String  | Callback method for the login and getLoginStatus | Optional
+debug            | Boolean | Enable the log method to show the responses      | Optional
+
+[Request your App Access Token](https://graph.facebook.com/oauth/access_token?client_id=APPID&client_secret=APPSECRET&grant_type=client_credentials).
+
 ### Authorize a user with Facebook
 
 ```javascript
 jsFB.authUser();
 ```
-
-Parameter        | Type    | Description                                 | Argument
------------------|---------|---------------------------------------------|----------
-fbAppId          | Integer | App ID                                      | Required
-fbAppAccessToken | Integer | [App Access token](https://developers.facebook.com/docs/technical-guides/opengraph/publishing-with-app-token/) | Required
-domain           | String  | Domain of the project                       | Required
-fbScope          | String  | List of [permissions](https://developers.facebook.com/docs/authentication/permissions/) for the project | Optional
-locale           | String  | Main [language](https://www.facebook.com/translations/FacebookLocales.xml) of the project | Optional
-likeEnabled      | Boolean | Enable the likegate functionality           | Optional
-fanPageID        | Integer | FanPage ID for the likegate                 | Optional
-likegateURL      | String  | Redirect URL if user don't like the FanPage | Optional
-appType          | String  | Type of the app (web, tab or app)           | Optional
-debug            | Boolean | Enable the log method to show the responses | Optional
-
-[Request your App Access Token](https://graph.facebook.com/oauth/access_token?client_id=APPID&client_secret=APPSECRET&grant_type=client_credentials).
 
 ### Logout the user
 
