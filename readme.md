@@ -1,6 +1,6 @@
 # jsFB
 
-jQuery plugin that wraps the Facebook JavaScript API.
+jQuery plugin that wraps the Facebook SDK for JavaScript.
 
 ## About the project
 
@@ -23,7 +23,7 @@ $.jsFB({
 Parameter        | Type    | Description                                      | Argument
 -----------------|---------|--------------------------------------------------|----------
 fbAppId          | Integer | App ID                                           | Required
-fbAppAccessToken | Integer | [App Access token](https://developers.facebook.com/docs/technical-guides/opengraph/publishing-with-app-token/) | Required
+fbAppAccessToken | String  | [App Access token](https://developers.facebook.com/docs/technical-guides/opengraph/publishing-with-app-token/) | Required
 domain           | String  | Domain of the project                            | Required
 fbScope          | String  | List of [permissions](https://developers.facebook.com/docs/authentication/permissions/) for the project | Optional
 locale           | String  | Main [language](https://www.facebook.com/translations/FacebookLocales.xml) of the project | Optional
