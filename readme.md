@@ -58,6 +58,26 @@ jsFB.getUserInfo('me');
 
 **Note**: You can provide other user using the Facebook ID.
 
+### Get user albums
+
+```javascript
+jsFB.getUserAlbums('me');
+```
+
+**Note**: You can provide other user using the Facebook ID.
+
+### Get album info
+
+```javascript
+jsFB.getUserAlbumInfo(ALBUM_ID);
+```
+
+### Get photos from album
+
+```javascript
+jsFB.getUserAlbumPhotos(ALBUM_ID);
+```
+
 ### User is fan?
 
 ```javascript
