@@ -227,6 +227,18 @@ jsFB.setSize(WIDTH, HEIGHT);
 
 When a method can have parameters, the approach is to build an object and pass to it (except that the description says otherwise).
 
+## Facebook considerations for apps
+
+1. First it should always have a landing page, and *then* ask for permissions.
+2. Do not ask a lot of permissions. *You'll scare the user!!!*
+3. Users who manage the app must be **real persons**.
+4. It should use **Open Graph**.
+5. Always post pictures from the *app website URL*, **not** from Facebook.
+6. Don't post directly on the user's wall. It should use the score system (part of **Games Developer Center**).
+7. Avoid negative feedback (when a user deletes or mark as spam our postings).
+8. You should *always* have a plan B in case a feature is limited.
+9. Don't forget: these are merely recommendations, they are not mandatory.
+
 ## About me
 
 You can reach me at [http://alemohamad.com/](http://alemohamad.com/) if you want to work with me or talk about this project.
