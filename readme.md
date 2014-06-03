@@ -179,7 +179,7 @@ message   | String  | Text of the picture           | Optional
 
 **Note**: This method will only work if we add the "user_photos" and "publish_stream" permissions.
 
-### Retrieve friends
+### Retrieve friends (that are using the app)
 
 ```javascript
 jsFB.getFriends();
