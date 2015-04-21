@@ -6,7 +6,7 @@ jQuery plugin that wraps the Facebook SDK for JavaScript.
 
 I created this plugin for a fast and organized usage of the platform.  
 
-![Facebook](http://alemohamad.com/github/facebook-logo.png)
+![Facebook](http://i.imgur.com/tQpMszo.png)
 
 ## Usage
 
@@ -243,7 +243,7 @@ When a method can have parameters, the approach is to build an object and pass t
 
 You can reach me at [http://alemohamad.com/](http://alemohamad.com/) if you want to work with me or talk about this project.
 
-![Ale Mohamad](http://alemohamad.com/github/logo2012am.png)
+![Ale Mohamad](http://i.imgur.com/nP59QVX.png)
 
 ## License
 
